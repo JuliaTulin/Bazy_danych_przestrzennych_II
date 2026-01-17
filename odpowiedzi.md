@@ -10,9 +10,12 @@ SCD Type 2 – Historical attribute
 SCD Type 0 – Fixed attribute
 (atrybut stały – zmiana jest niedozwolona, dlatego proces zgłasza błąd).
 
+
+
 ## 7. Jakie ustawienie i dlaczego miało wpływ na działanie procesu w przypadku kwerendy 5c? 
 W 5c proces nie wykonuje update ani insert, tylko kończy się błędem, ponieważ FirstName zostało zdefiniowane jako Fixed attribute. Każda zmiana wartości w stg_dimemp powoduje:
 
 - wykrycie zmiany na atrybucie stałym,
 - przerwanie działania transformacji SCD,
 - błąd i zatrzymanie pakietu.
+
