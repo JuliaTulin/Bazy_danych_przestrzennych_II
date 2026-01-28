@@ -1,0 +1,1 @@
+bcp dbo.CUSTOMERS_410258 format nul -c -t"`t" -f customers_410258.fmt -T -S localhost -d AdventureWorksDW2019

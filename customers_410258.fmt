@@ -1,0 +1,12 @@
+14.0
+10
+1       SQLCHAR             0       12      "\t"     1     InternetSalesId                              ""
+2       SQLCHAR             0       12      "\t"     2     ProductKey                                   ""
+3       SQLCHAR             0       20      "\t"     3     CurrencyAlternateKey                         SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             0       400     "\t"     4     Customer_Name                                SQL_Latin1_General_CP1_CI_AS
+5       SQLCHAR             0       12      "\t"     5     OrderDateKey                                 ""
+6       SQLCHAR             0       12      "\t"     6     OrderQuantity                                ""
+7       SQLCHAR             0       41      "\t"     7     UnitPrice                                    ""
+8       SQLCHAR             0       50      "\t"     8     SecretCode                                   SQL_Latin1_General_CP1_CI_AS
+9       SQLCHAR             0       200     "\t"     9     FIRST_NAME                                   SQL_Latin1_General_CP1_CI_AS
+10      SQLCHAR             0       200     "\r\n"   10    LAST_NAME                                    SQL_Latin1_General_CP1_CI_AS
